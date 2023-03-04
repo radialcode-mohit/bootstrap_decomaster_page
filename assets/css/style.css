@@ -509,7 +509,7 @@ li {
 
 
 .hover_underline:hover {
-    color: rgb(187, 27, 144);
+    -webkit-text-stroke-width: 0.5px;
 }
 
 .hover_underline::after {
@@ -621,7 +621,7 @@ li {
         --fs-4xl: 144px;
         --fs-3xl: 40px;
         --fs-2xl: 36px;
-        --fs-xl: 24px;
+        --fs-xl: 222px;
         --fs-lg: 20px;
         --fs-md: 18px;
         --fs-sm: 16px;
