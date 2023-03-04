@@ -116,7 +116,8 @@
 }
 
 .ff_poppins {
-    font-family: "poppins";
+    font-family: "poppins" !important;
+    font-family: sans-serif;
 }
 
 .max_w_158 {
