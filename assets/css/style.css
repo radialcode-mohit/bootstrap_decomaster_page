@@ -568,6 +568,10 @@ li {
     border-radius: 24px;
 }
 
+.corner_img_right {
+    right: -100px;
+}
+
 @media (min-width:576px) {
     :root {
         /* font size */
@@ -888,6 +892,10 @@ li {
 @media (min-width:1745px) {
     .d_blck_min_1745 {
         display: block !important;
+    }
+
+    .corner_img_right {
+        right: 0px;
     }
 
 }
