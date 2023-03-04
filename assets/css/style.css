@@ -628,6 +628,15 @@ li {
     }
 }
 
+@media (max-width:576px) {
+    .hero_secbg {
+        background-image: url(../images/img/herosec_bg/bg_image_hero_sec.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+}
+
 @media (min-width:768px) {
     .input_des {
         width: 54%;
